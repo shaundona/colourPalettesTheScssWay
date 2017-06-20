@@ -1,0 +1,145 @@
+//Colour Palettes The SCSS Way
+/*
+ * 
+ * Brand colour red
+ * 
+ */
+
+$pf-color-brand-red-500: #F44336;
+
+$pf-color-brand-red-50:  tint($pf-color-brand-red-500, 90%);
+$pf-color-brand-red-100: tint($pf-color-brand-red-500, 70%);
+$pf-color-brand-red-200: tint($pf-color-brand-red-500, 50%);
+$pf-color-brand-red-300: tint($pf-color-brand-red-500, 30%);
+$pf-color-brand-red-400: tint($pf-color-brand-red-500, 10%);
+$pf-color-brand-red-500: $pf-color-brand-red-500;
+$pf-color-brand-red-600: shade($pf-color-brand-red-500, 10%);
+$pf-color-brand-red-700: shade($pf-color-brand-red-500, 20%);
+$pf-color-brand-red-800: shade($pf-color-brand-red-500, 30%);
+$pf-color-brand-red-900: shade($pf-color-brand-red-500, 40%);
+
+/*
+ * 
+ * Brand colour dark blue
+ * 
+ */
+$pf-color-brand-darkblue-500: #3F51B5;
+
+$pf-color-brand-darkblue-50:  tint($pf-color-brand-darkblue-500, 90%);
+$pf-color-brand-darkblue-100: tint($pf-color-brand-darkblue-500, 70%);
+$pf-color-brand-darkblue-200: tint($pf-color-brand-darkblue-500, 50%);
+$pf-color-brand-darkblue-300: tint($pf-color-brand-darkblue-500, 30%);
+$pf-color-brand-darkblue-400: tint($pf-color-brand-darkblue-500, 10%);
+$pf-color-brand-darkblue-500: $pf-color-brand-darkblue-500;
+$pf-color-brand-darkblue-600: shade($pf-color-brand-darkblue-500, 10%);
+$pf-color-brand-darkblue-700: shade($pf-color-brand-darkblue-500, 20%);
+$pf-color-brand-darkblue-800: shade($pf-color-brand-darkblue-500, 30%);
+$pf-color-brand-darkblue-900: shade($pf-color-brand-darkblue-500, 40%);
+
+/*
+ * 
+ * Brand colour light blue
+ * 
+ */
+$pf-color-brand-lightblue-500: #03A9F4;
+
+$pf-color-brand-lightblue-50:  tint($pf-color-brand-lightblue-500, 90%);
+$pf-color-brand-lightblue-100: tint($pf-color-brand-lightblue-500, 70%);
+$pf-color-brand-lightblue-200: tint($pf-color-brand-lightblue-500, 50%);
+$pf-color-brand-lightblue-300: tint($pf-color-brand-lightblue-500, 30%);
+$pf-color-brand-lightblue-400: tint($pf-color-brand-lightblue-500, 10%);
+$pf-color-brand-lightblue-500: $pf-color-brand-lightblue-500;
+$pf-color-brand-lightblue-600: shade($pf-color-brand-lightblue-500, 10%);
+$pf-color-brand-lightblue-700: shade($pf-color-brand-lightblue-500, 20%);
+$pf-color-brand-lightblue-800: shade($pf-color-brand-lightblue-500, 30%);
+$pf-color-brand-lightblue-900: shade($pf-color-brand-lightblue-500, 50%);
+
+/*
+ * 
+ * Brand colour green
+ * 
+ */
+$pf-color-brand-green-500: #009688;
+
+$pf-color-brand-green-50:  tint($pf-color-brand-green-500, 90%);
+$pf-color-brand-green-100: tint($pf-color-brand-green-500, 70%);
+$pf-color-brand-green-200: tint($pf-color-brand-green-500, 50%);
+$pf-color-brand-green-300: tint($pf-color-brand-green-500, 30%);
+$pf-color-brand-green-400: tint($pf-color-brand-green-500, 10%);
+$pf-color-brand-green-500: $pf-color-brand-green-500;
+$pf-color-brand-green-600: shade($pf-color-brand-green-500, 10%);
+$pf-color-brand-green-700: shade($pf-color-brand-green-500, 20%);
+$pf-color-brand-green-800: shade($pf-color-brand-green-500, 30%);
+$pf-color-brand-green-900: shade($pf-color-brand-green-500, 40%);
+
+/*
+ * 
+ * Brand colour purple
+ * 
+ */
+$pf-color-brand-purple-500: #673AB7;
+
+$pf-color-brand-purple-50:  tint($pf-color-brand-purple-500, 90%);
+$pf-color-brand-purple-100: tint($pf-color-brand-purple-500, 70%);
+$pf-color-brand-purple-200: tint($pf-color-brand-purple-500, 50%);
+$pf-color-brand-purple-300: tint($pf-color-brand-purple-500, 30%);
+$pf-color-brand-purple-400: tint($pf-color-brand-purple-500, 10%);
+$pf-color-brand-purple-500: $pf-color-brand-purple-500;
+$pf-color-brand-purple-600: shade($pf-color-brand-purple-500, 10%);
+$pf-color-brand-purple-700: shade($pf-color-brand-purple-500, 20%);
+$pf-color-brand-purple-800: shade($pf-color-brand-purple-500, 30%);
+$pf-color-brand-purple-900: shade($pf-color-brand-purple-500, 40%);
+
+/*
+ * 
+ * Brand colour orange
+ * 
+ */
+$pf-color-brand-orange-500: #FF9800; 
+
+$pf-color-brand-orange-50:  tint($pf-color-brand-orange-500, 90%);
+$pf-color-brand-orange-100: tint($pf-color-brand-orange-500, 70%);
+$pf-color-brand-orange-200: tint($pf-color-brand-orange-500, 50%);
+$pf-color-brand-orange-300: tint($pf-color-brand-orange-500, 30%);
+$pf-color-brand-orange-400: tint($pf-color-brand-orange-500, 10%);
+$pf-color-brand-orange-500: $pf-color-brand-orange-500;
+$pf-color-brand-orange-600: shade($pf-color-brand-orange-500, 10%);
+$pf-color-brand-orange-700: shade($pf-color-brand-orange-500, 20%);
+$pf-color-brand-orange-800: shade($pf-color-brand-orange-500, 30%);
+$pf-color-brand-orange-900: shade($pf-color-brand-orange-500, 40%);
+
+/*
+ * 
+ * Brand colour yellow
+ * 
+ */
+$pf-color-brand-yellow-500: #FFC107;
+
+$pf-color-brand-yellow-50:  tint($pf-color-brand-yellow-500, 90%);
+$pf-color-brand-yellow-100: tint($pf-color-brand-yellow-500, 70%);
+$pf-color-brand-yellow-200: tint($pf-color-brand-yellow-500, 50%);
+$pf-color-brand-yellow-300: tint($pf-color-brand-yellow-500, 30%);
+$pf-color-brand-yellow-400: tint($pf-color-brand-yellow-500, 10%);
+$pf-color-brand-yellow-500: $pf-color-brand-yellow-500;
+$pf-color-brand-yellow-600: shade($pf-color-brand-yellow-500, 10%);
+$pf-color-brand-yellow-700: shade($pf-color-brand-yellow-500, 20%);
+$pf-color-brand-yellow-800: shade($pf-color-brand-yellow-500, 30%);
+$pf-color-brand-yellow-900: shade($pf-color-brand-yellow-500, 40%);
+
+/*
+ * 
+ * Brand colour grey
+ * 
+ */
+$pf-color-brand-grey-500: #607D8B;
+
+$pf-color-brand-grey-50:  tint($pf-color-brand-grey-500, 90%);
+$pf-color-brand-grey-100: tint($pf-color-brand-grey-500, 70%);
+$pf-color-brand-grey-200: tint($pf-color-brand-grey-500, 50%);
+$pf-color-brand-grey-300: tint($pf-color-brand-grey-500, 30%);
+$pf-color-brand-grey-400: tint($pf-color-brand-grey-500, 10%);
+$pf-color-brand-grey-500: $pf-color-brand-grey-500;
+$pf-color-brand-grey-600: shade($pf-color-brand-grey-500, 10%);
+$pf-color-brand-grey-700: shade($pf-color-brand-grey-500, 20%);
+$pf-color-brand-grey-800: shade($pf-color-brand-grey-500, 30%);
+$pf-color-brand-grey-900: shade($pf-color-brand-grey-500, 40%);
