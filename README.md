@@ -7,6 +7,9 @@ Open-source stylekit generator, optimized for quick reusable frontend styling
 - The index file will generate a series of swatches coupled with the class name, Hex value and RGB value. Please note jQuery is required to define Hex and RGB values.
 - Using your new stylekit apply the classes to your project.
 
+## Demo
+- https://www.pencilandfox.getforge.io/scrummylibrary/colour-palettes-the-SCSS-way
+
 ## Requirements
 - SASS compiler
 - jQuery
