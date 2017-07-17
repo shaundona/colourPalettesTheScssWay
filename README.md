@@ -8,7 +8,7 @@ Open-source stylekit generator, optimized for quick reusable frontend styling
 - Using your new stylekit apply the classes to your project.
 
 ## Demo
-- https://www.pencilandfox.getforge.io/scrummylibrary/colour-palettes-the-SCSS-way
+- http://www.pencilandfox.getforge.io/scrummylibrary/colour-palettes-the-SCSS-way
 
 ## Requirements
 - SASS compiler
