@@ -117,22 +117,22 @@ jQuery(document).ready(function(){
     color7.forEach(myFunction);
     color8.forEach(myFunction);
 
-    
+
     //run output function
     function myFunction(item, index) {
-        
-        
+
+
         //get card backgound rgb value
         var hexcolor = $('.card-image', $(item)).css('backgroundColor');
         hexc(hexcolor);
-        
+
         //print hex value text
         jQuery( '.hex-color', $(item) ).text( 'Hex: ' +  color );
-        
+
         //print rgb value text
-        jQuery( '.rgb-color', $(item) ).text( hexcolor ); 
-            
-        
+        jQuery( '.rgb-color', $(item) ).text( hexcolor );
+
+
     }
 
     //converts RGB to Hex
